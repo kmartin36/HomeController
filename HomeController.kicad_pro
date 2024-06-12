@@ -209,18 +209,23 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
-      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "lib_symbol_issues": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
@@ -230,6 +235,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
+      "simulation_model_issue": "error",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -247,7 +253,7 @@
   "net_settings": {
     "classes": [
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -261,11 +267,11 @@
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       }
     ],
     "meta": {
-      "version": 2
+      "version": 3
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -330,6 +336,70 @@
     [
       "71f7f480-14ef-4c66-b070-90f4478290f3",
       ""
+    ],
+    [
+      "3b543a6d-2490-455b-ad87-960c2cbd1687",
+      "Output"
+    ],
+    [
+      "08f713fc-2910-45f1-9290-95ec97abea6b",
+      "Output1"
+    ],
+    [
+      "95eaf679-baf2-4779-85c2-eb66b6546116",
+      "Output2"
+    ],
+    [
+      "818a2be0-1f92-480c-ad5b-1aaf1e0361c6",
+      "Output3"
+    ],
+    [
+      "09359840-9049-43f9-b90e-ea17b736d341",
+      "Output4"
+    ],
+    [
+      "e91d439c-8542-454a-9448-dfc4ae9c2863",
+      "Output5"
+    ],
+    [
+      "d9373ae6-80a1-4a84-ad48-388590ad08c7",
+      "Output6"
+    ],
+    [
+      "778b0a6a-6d90-4e90-a156-aa1540e07532",
+      "Output7"
+    ],
+    [
+      "8bc340fe-e18e-4b75-87a6-be8c877b1f9f",
+      "Output8"
+    ],
+    [
+      "f1c39703-451b-46a0-b84d-7904a68b3c92",
+      "Output15"
+    ],
+    [
+      "4bea21e7-a055-4931-b092-60b0b7b633a6",
+      "Output14"
+    ],
+    [
+      "a66a75e5-8743-4ede-b04c-c707e55f2666",
+      "Output10"
+    ],
+    [
+      "51c2f7fe-6f1a-4aef-86a8-3229c11e1ad2",
+      "Output12"
+    ],
+    [
+      "dea77ba5-ef50-4d78-893a-bc56b11dd177",
+      "Output11"
+    ],
+    [
+      "0e13c0a4-a29f-4192-82eb-c7af0110dfe4",
+      "Output13"
+    ],
+    [
+      "ed1ecb4d-e8c3-43d7-adac-47daa3bb5961",
+      "Output9"
     ]
   ],
   "text_variables": {}
